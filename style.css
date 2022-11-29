@@ -1,0 +1,135 @@
+body {
+    background: rgba(245, 245, 245, 1);
+    font-family: "Helvetica Neue", sans-serif;
+    letter-spacing: -0.01em;
+  }
+  
+  select {
+    padding: 10px 15px;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 3px;
+    appearance: none;
+    /* I did not combine the following so as to retain readibility */
+    background-image: url(https://assets.doxcdn.com/image/upload/fl_sanitize/v1/icons/icon-arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+    background-size: 15px;
+    border: 1px solid rgba(187, 187, 187, 1);
+  }
+  
+  button {
+    background: rgba(18, 118, 211, 1);
+    padding: 11px 19px;
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: normal;
+    margin: 10px 0 35px 0;
+    font-size: 1em;
+    font-weight: 700;
+    border: none;
+  }
+  
+  /* Classes */
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 20px;
+    align-items: start;
+    width: 83.3%;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+  
+  .sidebar {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(60, 60, 67, 0.18);
+    padding: 10px;
+  }
+  
+  .cols {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cols > div {
+    height: 300px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(60, 60, 67, 0.18);
+  }
+  
+  .cols > div > p {
+    display: block;
+    text-align: center;
+    line-height: 300px;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .user-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .user-container p {
+    margin: 0;
+  }
+  
+  .user-img {
+    flex: 1;
+  }
+  
+  .user-img > img {
+    border-radius: 50%;
+  }
+  
+  .user-info {
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    flex: 5;
+  }
+  
+  .user-add {
+    flex: 1;
+    text-align: right;
+  }
+  
+  /* Utility Classes */
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .my-20 {
+    margin: 20px 0;
+  }
+  
+  .people {
+    padding-bottom: 10px;
+    margin: 0;
+  }
+  
+  .text-gray {
+    color: rgba(88, 88, 88, 1);
+  }
+  
+  .sm-image {
+    width: 22px;
+  }
+  
+  .welcome {
+    margin: 0 0 20px;
+  }
+  
